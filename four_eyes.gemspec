@@ -41,16 +41,16 @@ Gem::Specification.new do |s|
   if s.respond_to? :specification_version then
     s.specification_version = 4
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.1') then
       #s.add_runtime_dependency(%q<four_eyes>, [">= 0"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.6"])
+      # s.add_development_dependency(%q<bundler>, ["~> 1.6"])
       s.add_development_dependency(%q<rake>, [">= 0"])
       s.add_development_dependency(%q<rails>, ["~> 4.1.9"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
       #s.add_development_dependency(%q<bundler>, ["~> 1.6"])
       s.add_development_dependency(%q<rake>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.6"])
+      # s.add_development_dependency(%q<bundler>, ["~> 1.6"])
       s.add_development_dependency(%q<rake>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
       #s.add_development_dependency(%q<bundler>, ["~> 1.6"])
